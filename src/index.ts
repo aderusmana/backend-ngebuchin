@@ -20,7 +20,7 @@ app.use(cors({
 }));
 const port = 5000;
 
-app.use(express.static(path.join(__dirname, '../../frontend-ngebuchin/dist')));
+app.use(express.static(path.join(__dirname,  '../../frontend-ngebuchin/dist')));
 
 app.use("/api/auth",authRouter)
 
